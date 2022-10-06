@@ -1,0 +1,44 @@
+.container {
+  max-width: 400px;
+  width: 100%;
+}
+
+.btnTopContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 10px 0;
+}
+
+.title {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  min-width: 80px;
+  height: 30px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.optionsContainer {
+    transition: all .25s ease-in-out;
+}
+
+.options {
+  text-align: center;
+  padding: 10px 5px;
+  background-color: #ebecf0;
+  transition: all 0.25s ease-in-out;
+}
+
+.options:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
