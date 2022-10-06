@@ -15,10 +15,6 @@ function App() {
         <Toggle.Accordion>
           <Accordion options={["option 1", "option 2"]} title={"Accordion 1"} />
         </Toggle.Accordion>
-
-        <Toggle.Accordion>
-          <Accordion options={["option 3", "option 4"]} title={"Accordion 2"} />
-        </Toggle.Accordion>
       </div>
     </div>
   );
