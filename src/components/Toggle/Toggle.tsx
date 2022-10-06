@@ -9,7 +9,7 @@ interface ContextProps {
   toggle?: () => void;
 }
 
-export const ToggleContext = createContext<ContextProps>({});
+export const ToggleContext = createContext<ContextProps>({} as ContextProps);
 ToggleContext.displayName = "ToggleContext";
 
 const Toggle = ({ children }: ToggleProps) => {
